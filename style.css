@@ -1,10 +1,43 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
 
-#container{
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+
+
+
+
+
+  
+  
+  #container{
     display: flex;
     flex-wrap: wrap;
   }
+  
+  .square{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .Fizz{
+    background-color: aqua;
+    color: black;
+  }
+  
+  .Buzz{
+    background-color: greenyellow;
+    color: black;
+  }
+  
+  .FizzBuzz{
+    background-color: gold;
+    color: #999;
+  }
+  
